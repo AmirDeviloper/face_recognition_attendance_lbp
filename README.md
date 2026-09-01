@@ -47,13 +47,11 @@ To run this project, you'll need:
 
 Set `CHECK_ALL_TEST_DATA = True` in `settings.py` to instead run a full batch evaluation over the test set from the command line (no GUI), printing a prediction for every test image.
 
-🖼️ Analyzes
-
-🛡️ License
+## 🛡️ License
 This project is licensed under the MIT License.
 By contributing, you agree that your contributions will be released under the same license.
 
-✨ Highlights
+## ✨ Highlights
 
 * 🔍 Region-based LBP for enhanced feature granularity
 * 🖥️ Full GUI attendance workflow, not just a recognition script
@@ -61,11 +59,11 @@ By contributing, you agree that your contributions will be released under the sa
 * 📊 Daily Excel attendance logs with duplicate protection and bulk absence marking
 * 🧩 Clean and extensible Python modules
 
-📬 Contact
+## 📬 Contact
 
 Feel free to reach out if you have questions or feedback!  
 Telegram: [@AmirDevil](https://t.me/AmirDevil)
 
-🚀 Purpose
+## 🚀 Purpose
 
 This project was developed to explore texture-based facial recognition, feature engineering, and dataset-driven evaluation in Python, and has since been extended into a practical, GUI-driven attendance tool. It reflects my interest in building intelligent systems for pattern analysis and biometric identification.
