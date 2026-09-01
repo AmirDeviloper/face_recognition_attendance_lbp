@@ -4,6 +4,8 @@
 
 This Python project implements a facial recognition **attendance system** using the Local Binary Pattern (LBP) algorithm. It processes a dataset of 40 individuals (based on the Olivetti Faces dataset), each with 10 facial images, mapped to realistic identities and automatically split into training/testing sets. The system uses region-based LBP (dividing each image into a 3×3 grid of 9 zones) for improved recognition accuracy, wrapped in a Tkinter GUI that logs attendance directly to a daily Excel file.
 
+---
+
 The system includes:
 
 * 🧠 **Region-Based LBP Feature Extraction** – Each face is divided into a 3×3 grid; LBP histograms are computed per region and concatenated into a single feature vector for finer-grained texture comparison
@@ -22,6 +24,8 @@ The system includes:
 * 📊 **Accuracy Evaluation** – 98% recognition accuracy measured across the held-out test split (batch evaluation mode via `CHECK_ALL_TEST_DATA`)
 * 🧩 **Modular Codebase** – Easy to extend with other descriptors, classifiers, or a different backing dataset
 
+---
+
 ## 📁 Modules
 
 * `lbp_face_recognizer.py` – Core `Image` and `LBPRrecognation` classes: LBP computation (full-image and 3×3 regional), histogram extraction, and Chi-square-distance-based k-NN matching
@@ -36,6 +40,8 @@ To run this project, you'll need:
 * 📦 `numpy`, `opencv-python`, `pandas`, `openpyxl`
 * 🖼️ A structured dataset of facial images (40 subjects × 10 images) — place the Olivetti dataset as `Olivetti_Dataset/s1` … `s40` next to the scripts, and let `dataset_changer.py` build `NewDataset/train` and `NewDataset/test` on first run (or set `CREATE_DATABASE = False` in `settings.py` if you already have a prepared dataset)
 
+---
+
 ## ▶️ Usage
 
 1. Unzip `Olivetti_Dataset.zip` on project root folder. 
@@ -47,9 +53,14 @@ To run this project, you'll need:
 
 Set `CHECK_ALL_TEST_DATA = True` in `settings.py` to instead run a full batch evaluation over the test set from the command line (no GUI), printing a prediction for every test image.
 
+---
+
 ## 🛡️ License
+
 This project is licensed under the MIT License.
 By contributing, you agree that your contributions will be released under the same license.
+
+---
 
 ## ✨ Highlights
 
@@ -59,10 +70,14 @@ By contributing, you agree that your contributions will be released under the sa
 * 📊 Daily Excel attendance logs with duplicate protection and bulk absence marking
 * 🧩 Clean and extensible Python modules
 
+---
+
 ## 📬 Contact
 
 Feel free to reach out if you have questions or feedback!  
 Telegram: [@AmirDevil](https://t.me/AmirDevil)
+
+---
 
 ## 🚀 Purpose
 
