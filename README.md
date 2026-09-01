@@ -1,6 +1,6 @@
 # 🧠 LBP-Based Face Recognition Attendance System (Python)
 
-🕒 **Note:** This project was originally developed in August 2023 and uploaded to GitHub in October 2025 for portfolio and documentation purposes. It has since been upgraded into a full desktop attendance application built on the original LBP recognition engine.
+> 🕒 **Note:** This project was originally developed in August 2023 and uploaded to GitHub in October 2025 for portfolio and documentation purposes. It has since been upgraded into a full desktop attendance application built on the original LBP recognition engine.
 
 This Python project implements a facial recognition **attendance system** using the Local Binary Pattern (LBP) algorithm. It processes a dataset of 40 individuals (based on the Olivetti Faces dataset), each with 10 facial images, mapped to realistic identities and automatically split into training/testing sets. The system uses region-based LBP (dividing each image into a 3×3 grid of 9 zones) for improved recognition accuracy, wrapped in a Tkinter GUI that logs attendance directly to a daily Excel file.
 
