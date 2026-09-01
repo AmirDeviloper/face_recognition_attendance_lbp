@@ -38,11 +38,12 @@ To run this project, you'll need:
 
 ## ▶️ Usage
 
-1. Run `lbp_attendence_final.py`
-2. On first launch (with `CREATE_DATABASE = True`), the dataset is automatically split into train/test folders
-3. Use **"ثبت حضور با تشخیص چهره"** (Register attendance via face recognition) to select an image and check a person in
-4. Use **"ثبت غیاب افراد"** (Register absences) to mark everyone who hasn't checked in that day as absent
-5. Attendance records are saved to `attendance_<today's date>.xlsx`
+1. Unzip `Olivetti_Dataset.zip` on project root folder. 
+2. Run `lbp_attendence_final.py`
+3. On first launch (with `CREATE_DATABASE = True`), the dataset is automatically split into train/test folders
+4. Use **"ثبت حضور با تشخیص چهره"** (Register attendance via face recognition) to select an image and check a person in
+5. Use **"ثبت غیاب افراد"** (Register absences) to mark everyone who hasn't checked in that day as absent
+6. Attendance records are saved to `attendance_<today's date>.xlsx`
 
 Set `CHECK_ALL_TEST_DATA = True` in `settings.py` to instead run a full batch evaluation over the test set from the command line (no GUI), printing a prediction for every test image.
 
